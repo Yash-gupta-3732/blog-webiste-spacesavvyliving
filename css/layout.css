@@ -100,3 +100,25 @@
     padding-right: var(--space-md);
   }
 }
+
+
+/* ==========================================================================
+   ANNOUNCEMENT BAR
+   ========================================================================== */
+.announcement-bar {
+  background: var(--color-accent-dark);
+  color: white;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.announcement-bar a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 0.25rem;
+}
+.announcement-bar a:hover {
+  text-decoration: none;
+}

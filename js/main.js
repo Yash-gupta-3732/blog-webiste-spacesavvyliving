@@ -156,7 +156,21 @@
   
   newsletterForms.forEach(function(form) {
     form.addEventListener('submit', function(e) {
-      // NOTE: We DO NOT use e.preventDefault() here!
+      
+      // Check if they already subscribed on this browser
+      if (localStorage.getItem('ssl_subscribed') === 'true') {
+        e.preventDefault(); // Prevent duplicate submission
+        const parent = form.parentElement;
+        parent.innerHTML = `
+          <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">You're already subscribed! 🎉</h2>
+          <p style="color: var(--color-accent-dark); font-weight: 500;">
+            Thanks for being a part of our community. Keep an eye on your inbox for our latest updates.
+          </p>
+        `;
+        return;
+      }
+
+      // NOTE: We DO NOT use e.preventDefault() here for first-time subscribers!
       // The form natively submits its POST request to the target="hidden_iframe"
       // so Kit properly registers the subscriber without reloading the page.
       
@@ -165,14 +179,17 @@
         submitBtn.textContent = 'Subscribing...';
       }
       
+      // Mark as subscribed for future visits
+      localStorage.setItem('ssl_subscribed', 'true');
+      
       // Wait 1.5 seconds to ensure the POST request to the iframe goes through
       // before we remove the form from the DOM and show the success message.
       setTimeout(function() {
         const parent = form.parentElement;
         parent.innerHTML = `
-          <h2>Welcome to the club! 🎉</h2>
+          <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Welcome to the club! 🎉</h2>
           <p style="color: var(--color-accent-dark); font-weight: 500;">
-            Thanks for subscribing. Check your email to confirm your subscription!
+            Thanks for subscribing! Keep an eye on your inbox for our latest updates and tips.
           </p>
         `;
       }, 1500);

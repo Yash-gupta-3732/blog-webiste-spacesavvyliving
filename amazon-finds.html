@@ -537,15 +537,17 @@
   </div>
 
   <!-- Newsletter Section -->
-  <section class="newsletter-section section fade-in">
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
     <div class="container">
       <div class="newsletter-content">
-        <h2>Get Our Best Finds in Your Inbox</h2>
-        <p>Join 15,000+ readers who get our weekly roundup of editor-tested organization products and clever storage ideas.</p>
-        <form class="newsletter-form" action="#" method="post">
-          <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <h2>Stay Organized</h2>
+        <p>Get weekly organization checklists, tips, and editor's picks delivered to your inbox.</p>
+        <form class="newsletter-form" action="https://app.kit.com/forms/9771099/subscriptions" method="POST" target="hidden_iframe">
+          <input type="email" name="email_address" placeholder="Your email address" aria-label="Email address" required>
           <button type="submit" class="btn">Subscribe &rarr;</button>
         </form>
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
       </div>
     </div>
   </section>

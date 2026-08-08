@@ -2,6 +2,14 @@
    SpaceSavvyLiving — Layout
    ========================================================================== */
 
+html, body {
+  overflow-x: hidden;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
 /* ── Container ───────────────────────────────────────────────────────────── */
 .container {
   width: 100%;
@@ -121,4 +129,11 @@
 }
 .announcement-bar a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .announcement-bar {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.5rem;
+  }
 }

@@ -18,14 +18,14 @@
     hamburger?.classList.add('active');
     mobileMenu?.classList.add('active');
     mobileOverlay?.classList.add('active');
-    document.body.classList.add('menu-open');
+    document.body.classList.add('no-scroll');
   }
 
   function closeMobileMenu() {
     hamburger?.classList.remove('active');
     mobileMenu?.classList.remove('active');
     mobileOverlay?.classList.remove('active');
-    document.body.classList.remove('menu-open');
+    document.body.classList.remove('no-scroll');
   }
 
   hamburger?.addEventListener('click', function () {
@@ -245,7 +245,7 @@
      10. Dynamic Active Navigation Links
      ──────────────────────────────────────────────────────────────────────── */
   const currentPath = window.location.pathname.split('/').pop() || 'index.html';
-  const navLinks = document.querySelectorAll('.nav-links a, .mobile-menu-content a');
+  const navLinks = document.querySelectorAll('.nav-links a, .mobile-menu-links a');
   
   navLinks.forEach(link => {
     const href = link.getAttribute('href');

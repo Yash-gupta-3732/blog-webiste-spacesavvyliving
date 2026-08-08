@@ -16,7 +16,15 @@
   <meta name="twitter:title" content="Best Amazon Finds for Home Organization | SpaceSavvyLiving">
   <meta name="twitter:description" content="Our editors' top-rated Amazon finds for home organization. Tested, reviewed, and recommended storage solutions for every room.">
   <meta name="twitter:image" content="https://spacesavvyliving.com/images/cat-kitchen.jpg">
-  <!-- GA4: Replace with your GA4 measurement ID -->
+<!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MW3F7KQ6P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6MW3F7KQ6P');
+  </script>
   <!-- ADSENSE: Replace with your AdSense publisher ID -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,7 +87,13 @@
 </nav>
 <div class="mobile-overlay" id="mobileOverlay"></div>
 <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-  <div class="mobile-menu-content">
+    <div class="mobile-menu-header">
+    <a href="index.html" class="logo" aria-label="SpaceSavvyLiving Home">SpaceSavvy<span>Living</span></a>
+    <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+  </div>
+  <div class="mobile-menu-links">
     <a href="index.html">Home</a>
     <a href="kitchen-organization.html">Kitchen Organization</a>
     <a href="pantry-organization.html">Pantry Organization</a>
@@ -120,7 +134,8 @@
   <section class="section fade-in">
     <div class="container">
       <div class="category-description">
-        <p>Every product featured on SpaceSavvyLiving is independently selected by our editorial team. We spend weeks researching, comparing reviews, and analyzing data before recommending them. Our goal is simple: help you find storage solutions that actually work, at price points that make sense. We never feature a product solely because of an affiliate commission. If it doesn't earn our genuine recommendation, it doesn't make the list.</p>
+        <p>Every product featured on SpaceSavvyLiving is independently selected by our editorial team.</p>
+        <p>We spend weeks researching, comparing reviews, and analyzing data before recommending them. Our goal is simple: help you find storage solutions that actually work, at price points that make sense. We never feature a product solely because of an affiliate commission. If it doesn't earn our genuine recommendation, it doesn't make the list.</p>
       </div>
     </div>
   </section>
@@ -142,11 +157,11 @@
   </section>
 
   <!-- Product Grid -->
-  <section class="section fade-in" style="padding-top: 0;">
+  <section class="section" style="padding-top: 0;">
     <div class="article-container">
 
       <!-- Product 1: Bamboo Expandable Drawer Organizer -->
-      <div class="product-box" data-category="kitchen">
+      <div class="product-box fade-in" data-category="kitchen">
         <div class="product-image">
           <img src="images/drawer_organizer.jpg" alt="Bamboo Expandable Drawer Organizer" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -168,7 +183,7 @@
       </div>
 
       <!-- Product 2: Clear Airtight Food Storage Containers Set -->
-      <div class="product-box" data-category="pantry">
+      <div class="product-box fade-in" data-category="pantry">
         <div class="product-image">
           <img src="images/airtight_containers.jpg" alt="Clear Airtight Food Storage Containers" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -190,7 +205,7 @@
       </div>
 
       <!-- Product 3: Slim Velvet Non-Slip Hangers 50-Pack -->
-      <div class="product-box" data-category="closet">
+      <div class="product-box fade-in" data-category="closet">
         <div class="product-image">
           <img src="images/velvet_hangers.jpg" alt="Slim Velvet Non-Slip Hangers 50-Pack" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -212,7 +227,7 @@
       </div>
 
       <!-- Product 4: Bamboo Bathroom Countertop Organizer -->
-      <div class="product-box" data-category="bathroom">
+      <div class="product-box fade-in" data-category="bathroom">
         <div class="product-image">
           <img src="images/bathroom_caddy.jpg" alt="Bamboo Bathroom Countertop Organizer" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -234,7 +249,7 @@
       </div>
 
       <!-- Product 5: Over-the-Door Pantry Organizer -->
-      <div class="product-box" data-category="kitchen">
+      <div class="product-box fade-in" data-category="kitchen">
         <div class="product-image">
           <img src="images/over_door_organizer.jpg" alt="Over-the-Door Pantry Organizer" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -256,7 +271,7 @@
       </div>
 
       <!-- Product 6: Under-Sink Expandable Shelf Organizer -->
-      <div class="product-box" data-category="bathroom">
+      <div class="product-box fade-in" data-category="bathroom">
         <div class="product-image">
           <img src="images/under_sink_shelf.jpg" alt="Under-Sink Expandable Shelf Organizer" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -278,7 +293,7 @@
       </div>
 
       <!-- Product 7: Stackable Closet Storage Bins -->
-      <div class="product-box" data-category="closet">
+      <div class="product-box fade-in" data-category="closet">
         <div class="product-image">
           <img src="images/fabric_storage_bins.jpg" alt="Stackable Closet Storage Bins" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -300,7 +315,7 @@
       </div>
 
       <!-- Product 8: Wall-Mounted Broom & Mop Holder -->
-      <div class="product-box" data-category="laundry">
+      <div class="product-box fade-in" data-category="laundry">
         <div class="product-image">
           <img src="images/broom_holder.jpg" alt="Wall-Mounted Broom & Mop Holder" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>
@@ -323,7 +338,7 @@
 
 
       <!-- Product 9: Entryway Mail & Key Holder -->
-      <div class="product-box" data-category="entryway">
+      <div class="product-box fade-in" data-category="entryway">
         <div class="product-image">
           <img src="images/entryway_key_holder.jpg" alt="Entryway Mail & Key Holder" width="400" height="300" loading="lazy" style="width: 100%; height: 220px; object-fit: cover; border-radius: 12px;">
         </div>

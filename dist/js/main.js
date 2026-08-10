@@ -156,9 +156,15 @@
   
   newsletterForms.forEach(function(form) {
     form.addEventListener('submit', function(e) {
-      
-      // Check if they already subscribed on this browser
-      if (localStorage.getItem('ssl_subscribed') === 'true') {
+
+      const emailInput = form.querySelector('input[type="email"]');
+      const enteredEmail = emailInput ? emailInput.value.trim().toLowerCase() : '';
+
+      // Get the list of already-subscribed emails
+      const subscribedEmails = JSON.parse(localStorage.getItem('ssl_subscribed_emails') || '[]');
+
+      // Check if THIS specific email already subscribed on this browser
+      if (enteredEmail && subscribedEmails.includes(enteredEmail)) {
         e.preventDefault(); // Prevent duplicate submission
         const parent = form.parentElement;
         parent.innerHTML = `
@@ -173,15 +179,18 @@
       // NOTE: We DO NOT use e.preventDefault() here for first-time subscribers!
       // The form natively submits its POST request to the target="hidden_iframe"
       // so Kit properly registers the subscriber without reloading the page.
-      
+
       const submitBtn = form.querySelector('button[type="submit"]');
       if (submitBtn) {
         submitBtn.textContent = 'Subscribing...';
       }
-      
-      // Mark as subscribed for future visits
-      localStorage.setItem('ssl_subscribed', 'true');
-      
+
+      // Save this email so future attempts with the same email show the right message
+      if (enteredEmail) {
+        subscribedEmails.push(enteredEmail);
+        localStorage.setItem('ssl_subscribed_emails', JSON.stringify(subscribedEmails));
+      }
+
       // Wait 1.5 seconds to ensure the POST request to the iframe goes through
       // before we remove the form from the DOM and show the success message.
       setTimeout(function() {
@@ -195,6 +204,7 @@
       }, 1500);
     });
   });
+
 
   /* ────────────────────────────────────────────────────────────────────────
      9. Contact Form AJAX Submission

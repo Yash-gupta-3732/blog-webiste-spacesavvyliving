@@ -498,6 +498,32 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .category-description {
+    padding: var(--space-xl) var(--space-lg);
+    text-align: left;
+    border-radius: var(--radius-md);
+  }
+
+  .category-description::before {
+    left: var(--space-lg);
+    transform: none;
+  }
+
+  .category-description p {
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .category-description p:first-of-type {
+    font-size: 1.2rem;
+    line-height: 1.45;
+    margin-bottom: 1rem;
+  }
+}
+
 
 /* ==========================================================================
    Responsive Grid Classes for About & Contact

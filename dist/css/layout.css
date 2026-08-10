@@ -1,0 +1,139 @@
+/* ==========================================================================
+   SpaceSavvyLiving — Layout
+   ========================================================================== */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* ── Container ───────────────────────────────────────────────────────────── */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+}
+
+/* ── Article Container (narrow) ──────────────────────────────────────────── */
+.article-container {
+  width: 100%;
+  max-width: var(--max-width-article);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+}
+
+/* ── Section ─────────────────────────────────────────────────────────────── */
+.section {
+  padding-top: var(--space-section);
+  padding-bottom: var(--space-section);
+}
+
+/* ── Section Header ──────────────────────────────────────────────────────── */
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-heading);
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+}
+
+.section-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1.0625rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: var(--lh-body);
+}
+
+/* ── Card Grids ──────────────────────────────────────────────────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-xl);
+}
+
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+.card-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-xl);
+}
+
+/* ── Responsive Grids ────────────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .card-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .card-grid,
+  .card-grid-3,
+  .card-grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+  }
+
+  .section-header {
+    margin-bottom: var(--space-xl);
+  }
+
+  .container,
+  .article-container {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+}
+
+
+/* ==========================================================================
+   ANNOUNCEMENT BAR
+   ========================================================================== */
+.announcement-bar {
+  background: var(--color-accent-dark);
+  color: white;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.announcement-bar a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 0.25rem;
+}
+.announcement-bar a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .announcement-bar {
+    font-size: 0.75rem;
+    padding: 0.4rem 0.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+﻿Product 1 = Bathroom Towel Ladder
+Link = https://amzn.to/3R6Pnzb
+
+
+Product 2 =  360 Rotating Makeup Organizer for Vanity
+Link = https://amzn.to/4f9AwMo
+
+
+Product 3 = Bathroom Drawer Organizer Trays
+Link = https://amzn.to/4eO9Jov
+
+
+Product 4 = Slim Toilet Paper Holder Stand
+Link = https://amzn.to/3SkB7TG
+
+
+Product 5 = Over The Toilet Storage Rack
+Link = https://amzn.to/4xxok0h
+
+
+Product 6 = Narrow Bathroom Storage Cabinet
+Link = https://amzn.to/4gdb8r2
+
+
+Product 7 = Shower Caddy for Small Bathrooms
+Link = https://amzn.to/3QClrdS
+
+
+Product 8 = Slim Rolling Bathroom Cart
+Link = https://amzn.to/4v4bTr3

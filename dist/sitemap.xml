@@ -1,93 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
   <url>
-    <loc>https://spacesavvyliving.com/index.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://spacesavvyliving.com/</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://spacesavvyliving.com/about.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://spacesavvyliving.com/contact.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://spacesavvyliving.com/search.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://spacesavvyliving.com/privacy-policy.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/affiliate-disclosure.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/404.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/kitchen-organization.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/pantry-organization.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/closet-organization.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/bathroom-organization.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/entryway-organization.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/laundry-room.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/apartment-storage.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://spacesavvyliving.com/small-space-living.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://spacesavvyliving.com/amazon-finds.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://spacesavvyliving.com/first-apartment-essentials.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://spacesavvyliving.com/kitchen-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/pantry-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/closet-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/bathroom-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/laundry-room.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/entryway-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/apartment-storage.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/small-space-living.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kitchen Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/top-12-amazon-kitchen-organization-finds.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://spacesavvyliving.com/amazon-finds.html</loc>
-    <lastmod>2026-08-06</lastmod>
+    <loc>https://spacesavvyliving.com/3-small-kitchen-upgrades-that-instantly-create-more-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://spacesavvyliving.com/under-sink-kitchen-storage-hacks.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/5-kitchen-organization-mistakes-making-your-kitchen-feel-smaller.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-complete-guide-to-kitchen-cabinet-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pantry Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/5-pantry-organizers-that-actually-save-space-in-small-kitchens.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/5-pantry-depth-and-visibility-rules-for-small-kitchens.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/7-things-taking-up-space-in-your-pantry-right-now.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Closet Blog Posts -->
   <url>
     <loc>https://spacesavvyliving.com/7-small-closet-organization-ideas-that-actually-save-space.html</loc>
-    <lastmod>2026-08-06</lastmod>
-    <priority>0.7</priority>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://spacesavvyliving.com/5-closet-organization-mistakes-making-your-closet-feel-smaller.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/5-closet-rules-that-make-any-closet-look-expensive.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Bathroom Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/8-tiny-bathroom-storage-products-that-instantly-create-more-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/5-bathroom-storage-mistakes-making-your-tiny-bathroom-look-smaller.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-reach-zone-rule-how-to-organize-a-small-bathroom.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-complete-guide-to-bathroom-under-sink-and-linen-closet-organization.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Laundry Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/7-laundry-room-storage-products-that-instantly-create-more-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/7-things-wasting-space-in-your-laundry-room-right-now.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-laundry-workflow-rule-that-makes-laundry-feel-easier.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-complete-guide-to-vertical-storage-in-a-small-laundry-room.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Entryway Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/5-entryway-storage-products-that-instantly-create-more-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/7-things-wasting-space-in-your-entryway-right-now.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-entryway-traffic-flow-rule-for-a-clutter-free-apartment.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/the-complete-guide-to-entryway-wall-storage.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Apartment / Small Space Blog Posts -->
+  <url>
+    <loc>https://spacesavvyliving.com/5-small-apartment-storage-mistakes-costing-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/6-hidden-storage-spaces-missing-small-apartment.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/7-tiny-apartment-storage-upgrades-that-instantly-create-more-space.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/4-storage-habits-clutter-free-renters-swear-by.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://spacesavvyliving.com/privacy-policy.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://spacesavvyliving.com/affiliate-disclosure.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

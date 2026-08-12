@@ -119,7 +119,8 @@
   border-radius: var(--radius-lg);
 }
 
-.article-body a:not(.btn) {
+.article-body a:not(.btn),
+.related-reading a {
   color: var(--color-btn);
   text-decoration: underline;
   text-decoration-color: rgba(196, 154, 108, 0.3);
@@ -127,7 +128,8 @@
   transition: text-decoration-color var(--transition-fast);
 }
 
-.article-body a:not(.btn):hover {
+.article-body a:not(.btn):hover,
+.related-reading a:hover {
   text-decoration-color: var(--color-btn);
 }
 

@@ -372,6 +372,22 @@
   box-shadow: var(--shadow-md);
 }
 
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-card .card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.blog-card .card-link {
+  margin-top: auto;
+}
+
 .card-image {
   display: block;
   aspect-ratio: 4 / 3;
